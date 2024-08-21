@@ -1,0 +1,35 @@
+<section class="bg-move py-4 mb-2 ">
+
+    <div class="container   my-5 d-flex ">
+        <div class="text-white m-app col-md-6 col-12 ">
+            <h1 class="animate__animated animate__backInDown"> TV Shows</h1>
+            <p class="animate__animated animate__backInDown">
+                Welcome to the edge of your seat, because it's time to dive into the action. From classic westerns and
+                war films to modern action hero adventures, it’s all right here on Plex.
+            </p>
+            <button class="app-font text-white btn bg-main animate__animated animate__bounceIn animate__delay-1s">Sign in</button>
+        </div>
+    </div>
+
+
+</section>
+<section class="py-4 my-2 bg-black">
+    <div class="container">
+        <div class="row gy-4">
+            @for (item of tvContainetr; track $index) {
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class=" hover">
+                        <div class="rounded-3 shadow shadow-sm overflow-hidden hover">
+                        <img class="w-100 img" [src]="'https://image.tmdb.org/t/p/w500/'+ item.poster_path" alt="">
+                        </div>
+                        <p class="fs-app text-white">{{item.first_air_date}}</p>
+                        
+                    </div>
+                    
+                </div>
+
+            }
+        </div>
+
+    </div>
+</section>

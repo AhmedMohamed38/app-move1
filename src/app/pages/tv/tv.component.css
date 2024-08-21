@@ -1,0 +1,21 @@
+.bg-move{
+    background: linear-gradient(to left,rgba(0, 0, 0, 0.555), rgb(0, 0, 0)), url("../../../assets/imag/man-filming-with-professional-camera.jpg");
+
+    background-size: cover;
+    background-position: center top ;
+    background-attachment: fixed;
+}
+.m-app{
+    margin-top: 190px;
+}
+.img{
+    filter: grayscale(.5);
+    transition: all .4s;
+}
+.hover:hover .img{
+    transform: scale(1.1);
+    filter: none;
+}
+.fs-app{
+    font-size: .7rem;
+}

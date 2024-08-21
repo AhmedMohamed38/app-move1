@@ -1,0 +1,21 @@
+.bg-move{
+    background: linear-gradient(45deg,rgba(12, 0, 0, 0.041), rgb(0, 0, 0)), url("../../../assets/imag/Watch-Free-Hero-2048x1152-3-1440x810.png");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.m-app{
+    margin-top: 190px;
+}
+.img{
+    filter: grayscale(.5);
+    transition: all .4s;
+}
+.hover:hover .img{
+    transform: scale(1.1);
+    filter: none;
+}
+.fs-app{
+    font-size: .7rem;
+}

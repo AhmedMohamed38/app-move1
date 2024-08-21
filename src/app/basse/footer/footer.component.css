@@ -1,0 +1,14 @@
+h5{
+    color: white;
+    cursor: pointer;
+    transition: all .3s;
+
+}
+p{
+    color: gray;
+    cursor: pointer;
+    transition: all .3s;
+}
+h5:hover , p:hover{
+    color: #E50914;
+}
